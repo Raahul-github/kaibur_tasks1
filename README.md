@@ -90,6 +90,3 @@ The application should expose the following REST API endpoints:
 
 5.  **Access the API**: Once the application is running, the REST API will typically be accessible at `http://localhost:8080` (or another port if configured differently).
 
-## Copyright
-
-Copyright © 2025 Kaiburr LLC. All rights reserved.
