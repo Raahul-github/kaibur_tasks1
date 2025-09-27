@@ -1,0 +1,22 @@
+Task Manager Application
+This is a simple Spring Boot backend application for managing tasks. The main focus here is setting up CORS (Cross-Origin Resource Sharing) so that the backend can communicate with a frontend application, such as React.
+
+How it Works
+When the application starts, Spring Boot runs a web server on http://localhost:8080. A typical React frontend usually runs on http://localhost:3000. Since these are considered different origins, browsers block requests between them by default for security reasons. To fix this, I added a CORS configuration.
+
+CORS is essentially a rule that tells the browser: “It is safe to allow requests from this frontend to this backend.” Without it, the frontend would not be able to fetch or send data.
+
+What is Configured
+Allowed Origin: Only requests from http://localhost:3000 are permitted.
+Allowed Methods: GET, POST, PUT, DELETE, and OPTIONS requests are supported.
+Allowed Headers: All headers are accepted.
+Credentials: Cookies or tokens can be included in requests.
+
+Running the Application
+Install Java and Maven (or use an IDE like IntelliJ or Eclipse).
+Run the project using mvn spring-boot:run or by executing the main class.
+The backend will start on http://localhost:8080.
+Connect it with a frontend running on http://localhost:3000, and they will communicate without CORS issues.
+
+Why this Matters
+If you are building a project with separate frontend and backend applications, configuring CORS is essential. Without it, browsers will block requests and the two parts of your project cannot work together. With this setup, the backend is ready to accept and respond to requests from the frontend safely.

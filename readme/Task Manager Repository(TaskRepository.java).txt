@@ -1,0 +1,15 @@
+Task Manager Repository
+This project is part of a Task Manager application built using Spring Boot and MongoDB. Its purpose is to handle the storage and retrieval of tasks in a structured and efficient way. Instead of writing complex database queries, we use the built-in features of Spring Data MongoDB to make interactions with the database much easier.
+At the heart of this part of the project is the Task Repository. A repository is like a link between your Java application and the database. It provides ready-made methods to save, update, delete, and search tasks without needing to write database code manually.
+
+Here, the repository extends MongoRepository, which means it inherits all the common database operations, such as:
+Saving a task
+Finding a task by its ID
+Listing all tasks
+Deleting a task
+
+On top of that, we define a custom search method:
+findByNameContainingIgnoreCase(String name)
+This allows us to search for tasks based on their names, ignoring whether letters are uppercase or lowercase. For example, searching for “report” will match tasks named “Report”, “REPORT”, or “final report”.
+
+Overall, this repository makes the application easier to maintain and ensures clean, readable code. It highlights the advantage of using Spring Data with MongoDB: you can focus on building features while the framework takes care of database operations in the background.

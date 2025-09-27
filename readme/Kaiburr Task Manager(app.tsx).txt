@@ -1,0 +1,12 @@
+Kaiburr Task Manager
+
+Kaiburr Task Manager is a simple and intuitive web application designed to help users manage their tasks efficiently. The app provides a user-friendly interface where tasks can be easily created, viewed, and managed in one place.
+The project is built using React for the frontend and uses Ant Design components to create a clean and responsive layout. It consists of two main sections: the Task Form, where users can add new tasks, and the Task List, where all created tasks are displayed. The layout is responsive, ensuring a smooth experience on both desktop and mobile devices.
+
+Key features of the application include:
+Task Creation: Users can quickly add new tasks through a simple form.
+Task Management: Tasks are displayed in a list, making it easy to track and manage them.
+Responsive Design: The interface adjusts seamlessly for different screen sizes.
+Professional Layout: The app uses a header, content area, and footer to maintain a structured and organized appearance.
+
+This project is ideal for beginners to understand the basics of React, component-based architecture, and integrating UI libraries like Ant Design. It demonstrates how to structure a web application clearly and manage user interactions effectively.

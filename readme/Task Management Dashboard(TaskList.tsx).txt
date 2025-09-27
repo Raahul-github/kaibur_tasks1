@@ -1,0 +1,25 @@
+Task Management Dashboard
+This project is a web-based Task Management Dashboard built with React and Ant Design. It allows users to view, manage, search, and execute tasks in a simple and organized way. The application is designed to be intuitive so that even someone new to web development can understand and use it easily.
+
+Features
+View Tasks: Users can see all tasks in a structured table format with columns for ID, name, owner, and command.
+Search Tasks: Tasks can be searched by name to quickly find specific entries.
+Run Tasks: Each task can be executed directly from the dashboard with a single click.
+Delete Tasks: Tasks can be removed from the system as needed.
+View Executions: Users can view the execution history of each task in a modal window.
+Pagination and Responsiveness: The table supports pagination and adjusts to different screen sizes for better usability.
+
+How It Works
+The dashboard fetches task data from a backend API. Users can perform actions such as running or deleting tasks, and the interface updates dynamically to reflect the latest data. Search functionality filters tasks without reloading the page, and execution details are displayed in a dedicated modal.
+
+Technologies Used
+React: For building the user interface.
+Ant Design: For pre-built components like tables, buttons, inputs, and modals.
+Custom API Integration: Handles fetching, searching, running, and deleting tasks.
+
+Usage
+Open the dashboard to view all tasks.
+Use the search bar to filter tasks by name.
+Click Run to execute a task or Delete to remove it.
+Click View to see detailed execution history.
+This dashboard is ideal for managing tasks efficiently and provides a clean, user-friendly interface for everyday task operations.

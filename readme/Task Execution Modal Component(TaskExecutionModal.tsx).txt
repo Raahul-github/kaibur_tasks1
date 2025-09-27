@@ -1,0 +1,18 @@
+Task Execution Modal Component
+This project implements a Task Execution Modal using React and Ant Design. It is designed to display the details of task executions in a clean and organized way, making it easy for users to track the start time, end time, and output of each task.
+
+Overview
+The modal provides a simple and interactive interface for viewing tasks. When a user opens the modal, it presents a table that lists all task executions. Each row in the table shows:
+Start Time – When the task started.
+End Time – When the task finished.
+Output – The result of the task. If no output is available, it displays “No output” clearly.
+The table is paginated, showing a limited number of entries per page to maintain readability, and it allows horizontal scrolling if the content is wider than the display area.
+
+Features
+Interactive Modal: Opens and closes smoothly, providing a focused view of task details.
+Dynamic Table: Displays execution data dynamically with formatted timestamps for easy reading.
+Clean Output Display: Shows task results in a code-style format, making it visually clear and professional.
+Responsive Design: Supports scrolling for large datasets and limits the number of rows per page for better usability.
+
+Usage
+This component can be integrated into any React project that needs to show task execution details. It requires an array of execution objects and a visibility toggle for the modal. The design ensures that users can easily understand task timelines and outputs without any confusion.

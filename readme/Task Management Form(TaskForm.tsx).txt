@@ -1,0 +1,20 @@
+Task Management Form
+This project is a simple and user-friendly web interface to create and manage tasks. It is built using React and Ant Design, focusing on clarity and ease of use so that even a first-year student can understand and use it effectively.
+
+Overview
+The Task Management Form allows users to add new tasks by entering relevant details such as a unique Task ID, Task Name, Owner, and the Command to be executed. The form validates input to ensure all required fields are filled, providing immediate feedback if something is missing or incorrect.
+
+Features
+Task Creation: Users can create a new task by filling out a straightforward form.
+Form Validation: The form ensures all fields are completed before submission.
+Feedback Messages: Success and error messages are displayed to inform the user about the result of their action.
+Reset Functionality: Users can easily clear all inputs using the reset button.
+Seamless Integration: Once a task is created, the form triggers an update to reflect the new task in the system.
+
+How It Works
+When a user fills out the form and submits it:
+The system validates the input fields to ensure no information is missing.
+The form sends the task data to the backend API for storage.
+If the task is successfully created, a confirmation message is displayed, and the form resets for the next entry.
+If there is an error, an appropriate error message is shown so the user can correct the issue.
+This setup ensures a smooth and interactive experience for managing tasks while keeping the process simple and intuitive.

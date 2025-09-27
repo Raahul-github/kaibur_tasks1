@@ -1,0 +1,22 @@
+Task Manager Project
+This project is a simple Task Manager application built using Java and Spring Boot, with MongoDB as the database. It is designed to store, manage, and track tasks along with their execution history. The goal of this project is to provide a basic yet practical example of how backend systems can handle task management in a clean and structured way.
+
+What the Project Does
+You can create and manage tasks with details such as the task name, owner, and command.
+Each task keeps a history of its executions, which records when the task started, when it ended, and the output it produced.
+This helps in tracking how tasks were executed over time and makes it easier to debug or analyze results.
+
+Key Components
+Task – Represents a task with its basic details (id, name, owner, and command).
+TaskExecution – Stores information about each execution of a task, including start time, end time, and output.
+MongoDB Integration – All tasks and executions are saved in a MongoDB collection, making the data persistent and easy to query.
+
+Why This Project is Useful
+This project gives a clear understanding of how to:
+Model real-world data (tasks and their executions).
+Work with object-oriented concepts in Java.
+Use Spring Boot to structure a backend application.
+Connect with MongoDB for storing and retrieving data.
+
+Who Can Use This
+This project is especially beginner-friendly. Even if you are a first-year student, you can use it to learn how backend systems are designed, how databases work with applications, and how to structure code in Java. It’s a good starting point to explore advanced features later, such as APIs, authentication, or scheduling.

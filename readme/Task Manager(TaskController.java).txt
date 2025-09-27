@@ -1,0 +1,18 @@
+Task Manager
+This project is a Task Manager API built using Spring Boot. It allows you to create, update, search, delete, and execute tasks in a very simple and flexible way. Each task has details such as its name, owner, and a command that can be run either on the local system or inside a Kubernetes pod.
+
+Features
+Create and Update Tasks: Add new tasks or update existing ones with basic information and a command to execute.
+Get Tasks: Retrieve all tasks, fetch a single task by ID, or search by task name.
+Delete Tasks: Remove tasks permanently by their ID.
+Execute Commands: Run the command linked to a task and store the output. Execution can be done locally on the system or inside Kubernetes (if configured).
+Safe Command Handling: Unsafe commands like rm, shutdown, or reboot are blocked to avoid harmful operations.
+Execution History: Each task stores its past executions, including start time, end time, and command output.
+
+How It Works
+If you run a task locally, the system uses the default shell (cmd.exe for Windows or /bin/sh for Unix).
+If Kubernetes mode is enabled, a temporary pod (with a BusyBox container) is created, runs the command, and then gets cleaned up automatically.
+The application also handles errors gracefully and gives clear responses when something goes wrong.
+
+Why This Project?
+This project is a simple yet practical way to understand how to manage tasks, interact with databases (MongoDB), handle REST APIs, and even integrate with Kubernetes. It is useful for learning system command execution, safe coding practices, and cloud-native workflows.

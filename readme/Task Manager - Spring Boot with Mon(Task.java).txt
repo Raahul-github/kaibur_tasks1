@@ -1,0 +1,28 @@
+Task Manager - Spring Boot with MongoDB
+This project is a Task Manager application built using Spring Boot and MongoDB. It is designed to store and manage tasks in a structured way. Each task contains details such as its id, name, owner, and a command to be executed. Along with this, it also supports keeping track of task executions.
+
+How It Works
+The project uses MongoDB as the database to store tasks.
+Each task is stored as a document inside a collection called tasks.
+A task has basic information like:
+
+id: A unique identifier for the task
+name: The name of the task
+owner: The person responsible for the task
+command: The action or command linked with the task
+
+In addition to these fields, the task also maintains a list of task executions, which records how the task has been executed over time.
+
+Purpose
+The purpose of this project is to show how we can build a simple backend for managing tasks using modern frameworks and databases. It demonstrates how Spring Boot integrates with MongoDB to store and retrieve data in the form of objects.
+
+Why It’s Useful
+Helps beginners understand how to model data in Java using Spring Boot
+Shows how MongoDB documents can be mapped directly to Java classes
+Provides a base for extending into more complex task management systems, such as automation tools or scheduling services
+
+Key Learning
+By exploring this project, you will understand:
+How to use Spring Boot to build backend applications
+How to connect and work with MongoDB in Java
+How to design simple models (like the Task class) to represent data

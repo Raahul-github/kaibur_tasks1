@@ -1,0 +1,14 @@
+Overview
+This project is a React-based web application built with modern tools and libraries to create a clean, efficient, and user-friendly interface. React is a popular JavaScript library used for building interactive user interfaces, and this project demonstrates how to set up and run a React app with some additional styling support.
+The application is structured around a main component called App, which serves as the starting point of the project. From here, other features and components can be added as the project grows. The entry file connects everything together and ensures that the app runs smoothly in the browser.
+For styling, the project uses Ant Design, a professional UI library that provides ready-made components to make the interface look clean and modern. Alongside this, a custom stylesheet is included to add project-specific styles.
+The project setup ensures compatibility with the latest versions of React (including React 19) and integrates best practices like using React.StrictMode to highlight potential issues during development. This helps in writing cleaner and more reliable code.
+Overall, the project provides a strong foundation for building larger web applications. It is lightweight, scalable, and easy to extend, making it a good starting point for both beginners learning React and developers creating real-world applications.
+
+How to Run This Project
+Make sure you have Node.js installed on your computer (this is required to run React projects).
+Download or clone the project files to your system.
+Open the project folder in any code editor, such as Visual Studio Code.
+Install the project’s dependencies (these are the required packages and libraries the project uses).
+Start the development server. This will open the application in your web browser.
+Any changes you make to the code will automatically update in the browser.
